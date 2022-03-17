@@ -1,0 +1,97 @@
+body{
+margin:0;
+padding: 0;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+max-width: 1000px;
+margin:auto
+
+}
+.title{
+background-color: blue;
+width: 100%;
+margin: auto;
+padding: 8px;
+color: white;
+text-align: center;
+font-size: 25px;
+}
+
+.formcontainer{
+background-color: #FFFFFFBB;
+max-width: 230px;
+float: right;
+padding: 20px;
+}
+
+section{
+padding: 20px;
+padding-bottom: 150px;
+background-image: url(../fundo/people.jpg);
+background-size: cover;
+overflow: hidden;
+
+}
+
+h2{
+font-size: 16px;
+}
+
+.mb{
+margin-bottom: 15px;
+}
+
+input,select{
+ width: 100%;
+ box-sizing: border-box;   
+ padding:10px;
+ border:none;
+ margin-bottom: 10px;
+}
+
+input[type="submit"]{
+color: white;
+background-color: blue;
+font-weight: bold;
+}
+
+select{
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+background-image: url(../fundo/arrow.jpg);
+background-repeat: no-repeat;
+background-position: calc(100% - 10px) center;
+}
+
+footer{
+background-color: rgb(32, 31, 31);
+padding: 40px;
+text-align: center;
+}
+.picture{
+width: 160px;
+padding-top: 40px;
+}
+
+.description{
+color: white;
+display: inline-block;
+max-width: 40%;
+text-align: left;
+margin-left: 40px;
+}
+
+
+.description p,.description h3{
+margin-bottom: 20px;
+
+}
+
+.description h3{
+font-size: 24px;
+
+}
