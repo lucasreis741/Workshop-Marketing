@@ -30,7 +30,7 @@ padding: 20px;
 section{
 padding: 20px;
 padding-bottom: 150px;
-background-image: url(../fundo/people.jpg);
+background-image: url(people.jpg);
 background-size: cover;
 overflow: hidden;
 
@@ -62,7 +62,7 @@ select{
 -moz-appearance: none;
 -webkit-appearance: none;
 appearance: none;
-background-image: url(../fundo/arrow.jpg);
+background-image: url(arrow.jpg);
 background-repeat: no-repeat;
 background-position: calc(100% - 10px) center;
 }
